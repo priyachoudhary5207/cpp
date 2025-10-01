@@ -6,13 +6,12 @@ int main(){
     int i=1;
     while(i<=n){
         int j=1;
-        while(j<=i){
-            cout<<i<<" ";
+        int star=n-i+1;
+        while(j<=star){
+            cout<<"*"<<" ";
             j=j+1;
         }
         cout<<endl;
         i=i+1;
     }
-
-
 }
